@@ -28,6 +28,43 @@
 	margin-right:auto;
 }
 
+#index {
+	h2{
+		color:grey;
+		font-family:Montserrat;
+		font-weight:300;
+	}
+	h3{
+		color:grey;
+		margin:0px;
+		font-family:Montserrat;
+		font-weight:300;
+	}
+}
+
+
+.left {
+		display: inline-block;
+		text-align: left;
+		.about {
+			padding-left: 0;
+			padding: 0 30px;;
+		}
+	}
+	.right {
+		display: inline-block;
+		text-align: left;
+		.about {
+			padding-left: 0; 
+			padding: 0 30px;
+		}
+	}
+#analysis{
+	li{list-style:none;}
+
+}
+
+
 #team li{
 	display:inline-block;
 	list-style:none;
@@ -39,6 +76,7 @@
 	margin-right:auto;
 	text-align:center;
 }
+
 
 #contact.center{
 	margin-left:auto;
