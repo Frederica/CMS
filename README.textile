@@ -16,7 +16,7 @@ Recipes:
 ["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
 
 Preferences:
-{:git=>true, :apps4=>"rails-bootstrap", :database=>"default", :unit_test=>false, :integration=>false, :fixtures=>false, :frontend=>"bootstrap", :bootstrap=>"sass", :email=>"none", :authentication=>false, :devise_modules=>false, :authorization=>false, :starter_app=>false, :form_builder=>"simple_form", :quiet_assets=>true, :local_env_file=>true, :better_errors=>true, :dev_webserver=>"thin", :prod_webserver=>"thin", :templates=>"erb", :continuous_testing=>"none", :rvmrc=>false, :github=>true}
+{:git=>true, :apps4=>"rails-bootstrap", :database=>"default", :unit_test=>false, :integration=>false, :fixtures=>false, :email=>"none", :authentication=>false, :devise_modules=>false, :authorization=>false, :starter_app=>false, :form_builder=>"simple_form", :quiet_assets=>true, :local_env_file=>true, :better_errors=>true, :dev_webserver=>"thin", :prod_webserver=>"thin", :templates=>"erb", :continuous_testing=>"none", :rvmrc=>false, :github=>true}
 
 h2. Ruby on Rails
 
@@ -35,7 +35,6 @@ h2. Development
 
 * Template Engine: ERB
 * Testing Framework: Test::Unit
-* Front-end Framework: Twitter Bootstrap (Sass)
 * Form Builder: SimpleForm
 * Authentication: None
 * Authorization: None
