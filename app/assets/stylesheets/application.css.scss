@@ -29,7 +29,8 @@ $dkgray: #575757;
 	color: $dkgray;
 }
 
-// .content {
+.content {
+	padding-bottom: 5em; 
 //  background-color: white;
 //  padding: 20px;
 //  margin: 0 -20px;
@@ -39,7 +40,7 @@ $dkgray: #575757;
 //  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 //  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 //  box-shadow: 0 1px 2px rgba(0,0,0,.15);
-// }
+}
 
 
 p {
