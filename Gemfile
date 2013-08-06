@@ -11,6 +11,7 @@ gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'thin'
+gem 'rails_12factor'
 
 group :production, :staging do
   gem "pg"
