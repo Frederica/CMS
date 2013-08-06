@@ -61,6 +61,32 @@ li {
 	font-family: 'Source Sans Pro', sans-serif;	
 }
 
+.nav {
+	li {
+		list-style: none;
+		text-decoration: none;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		.logo {
+			width: 3em; 
+		}
+		.nav-link {
+			list-style: none;
+			text-decoration: none;
+
+			font-weight: 700;
+			font-size: 0.85em;
+			font-style: none;
+			color: $blue;
+			text-align: left;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
 .welcome-text {
 	float: right;
 
@@ -102,5 +128,26 @@ li {
 		line-height: 1.25em;
 		font-size: 1.25em;
 		text-align: left;
+
+		.more-link {
+			text-decoration: none;
+			font-size: 0.75;
+		}
+	}
+}
+
+.bio {
+	margin: 2em 0em;
+	.bio-photo {
+		border-radius: 50%;
+		float: left;
+		margin-right: 2em;
+	}
+	.bio-text {
+		font-weight: 200;
+		line-height: 1.25em;
+		font-size: 1em;
+		text-align: left;
+		padding-bottom: 2em;
 	}
 }

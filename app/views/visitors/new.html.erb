@@ -1,15 +1,16 @@
+<%= render :partial => "navigation" %>
 <div class="welcome-text span_10_of_12">
 	<h1 class="greeting blue">We are, <br>
 	IASO HEALTH.</h1>
 	<ul>
 		<li class="link">
-			<%= link_to "LEARN MORE ABOUT IASO", asset_path("pdf/iaso_presentation.pdf"), :title => "Some link", :class => "link" %>
+			<%= link_to "LEARN MORE ABOUT IASO", asset_path("pdf/iaso_presentation.pdf"), :title => "Some link", :class => "link span_3_of_12" %>
 		</li>
 		<li class="link">
-			<%= link_to "THE IASO EXPERIENCE", asset_path("pdf/iaso_wireframes.pdf"), :title => "Some link", :class => "link" %>
+			<%= link_to "THE IASO EXPERIENCE", asset_path("pdf/iaso_wireframes.pdf"), :title => "Some link", :class => "link span_3_of_12" %>
 		</li>
 	</ul>
 	<p class="description gray span_7_of_12"> 
-		Iaso provides negotiation power to self-insured employers or union health/ welfare trusts, by delivering both cost and quality information to plan sponsors before they seek costly inpatient care. <br><br> Iaso increases the efficiency of cost negotiations between provider and plan sponsor by exposing industry price-setting data to the 59% of corporations who self-insure. Our algorithm is built on the understanding that provider specialization leads to higher quality and lower costs (R=0.13, p<.05). Given a set of natural language DRGs, the Iaso algorithm uses 5 performance indicators, made up of quality, specialty, and cost-value data. We identify the best providers and limit results to a small number of distinct providers using a discrete knapsack optimization, thus ensuring that plan sponsors only need to negotiate with a manageable number of providers. The result is cost and quality delivered to both plan sponsor and participant.
+		Iaso provides negotiation power to self-insured employers or union health/ welfare trusts, by delivering both cost and quality information to plan sponsors before they seek costly inpatient care. <%= link_to 'more', page_path('about'), :class => "more-link blue" %>
 	</p>
 </div>
